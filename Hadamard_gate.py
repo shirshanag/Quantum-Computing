@@ -18,3 +18,5 @@ counts=results.get_counts(qc)
 print(counts)
 #Plot Histogram
 plot_histogram(counts)
+#Draw the circuit
+qc.draw('mpl')
