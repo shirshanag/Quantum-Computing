@@ -2,7 +2,7 @@
 This repository contains a collection of quantum computing projects developed using frameworks like Qiskit. Each project demonstrates a unique application of quantum algorithms in areas such as:
 
 Quantum- Circuit
-Grover's Algorithm.py
+
 
 Quantum machine learning (QML)
 
