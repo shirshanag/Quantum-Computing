@@ -42,3 +42,4 @@ y_pred=vqc.predict(X_test)
 #Accuracy
 accuracy=np.mean(y_pred==y_test)
 print(f"Accuracy: {accuracy * 100:.2f}%")
+vqc.circuit.draw(output='mpl')
