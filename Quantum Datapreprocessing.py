@@ -39,4 +39,4 @@ svm.fit(X_train_kernel,y_train)
 y_pred=svm.predict(X_test_kernel)
 #Compute the accuracy
 accuracy=np.mean(y_pred==y_test)
-print("Accuracy:",accuracy*100 "%")
+print("Accuracy:",accuracy*100,"%")
